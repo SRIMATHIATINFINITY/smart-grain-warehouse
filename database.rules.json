@@ -1,0 +1,30 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "warehouses": {
+      "$warehouseId": {
+        "binIndex": {
+          ".read": "auth != null && auth.token.dashboardReader == true",
+          ".write": false
+        },
+        "bins": {
+          "$binId": {
+            "metadata": {
+              ".read": "auth != null && auth.token.dashboardReader == true",
+              ".write": false
+            },
+            "latest": {
+              ".read": "auth != null && auth.token.dashboardReader == true",
+              ".write": "auth != null && auth.token.deviceWriter == true && auth.token.binId == $binId"
+            },
+            "history": {
+              ".read": "auth != null && auth.token.dashboardReader == true",
+              ".write": "auth != null && auth.token.deviceWriter == true && auth.token.binId == $binId"
+            }
+          }
+        }
+      }
+    }
+  }
+}
