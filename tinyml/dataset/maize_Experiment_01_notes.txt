@@ -1,0 +1,36 @@
+EXPERIMENT ID: MAIZE_01
+
+Grain Type: Maize
+
+ESP32 Board: ESP32 DevKit V1
+
+Temperature Sensor: DHT22
+
+Gas Sensor: MQ135
+
+Sampling Interval: 2500 ms
+
+Number of Readings: 51
+
+Dataset File: maize_experiment_01.csv
+
+Temperature Unit: Celsius
+
+Humidity Unit: Percentage (%)
+
+MQ135 Data: Raw ADC readings
+
+ADC Voltage: Volts
+
+Grain Condition: Not independently verified
+
+Experiment Date: 26 November 2026
+
+Observations:
+First sensor data collection completed successfully.
+Temperature, humidity and MQ135 readings were recorded.
+Four readings have missing temperature values.
+
+Notes:
+This is preliminary experimental data.
+It is not yet suitable for training a reliable grain-spoilage classification model.
