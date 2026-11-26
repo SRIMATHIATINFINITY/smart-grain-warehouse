@@ -1,0 +1,17 @@
+EXPERIMENT ID: SWEETCORN_01
+
+Grain/Crop Type: Fresh Sweet Corn
+Condition: Fresh, not dried
+Storage: Transparent plastic bag
+Temperature Sensor: DHT22
+Gas Sensor: MQ135
+ESP32: ESP32 DevKit V1
+
+Experiment Purpose:
+Preliminary sensor observation around fresh sweet corn.
+
+Grain Condition:
+Not independently verified.
+
+Observations:
+Fresh sweet corn used for initial sensor testing.
